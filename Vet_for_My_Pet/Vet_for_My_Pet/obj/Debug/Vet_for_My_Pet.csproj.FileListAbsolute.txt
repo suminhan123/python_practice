@@ -1,0 +1,12 @@
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\bin\Debug\Vet_for_My_Pet.exe.config
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\bin\Debug\Vet_for_My_Pet.exe
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\bin\Debug\Vet_for_My_Pet.pdb
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.start_page.resources
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.main_page.resources
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.Properties.Resources.resources
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.csproj.GenerateResource.cache
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.exe
+C:\Users\admin\OneDrive - 광운대학교\문서\팀프로젝트\Vet_for_My_Pet\Vet_for_My_Pet\obj\Debug\Vet_for_My_Pet.pdb
