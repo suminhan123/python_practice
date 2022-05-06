@@ -54,9 +54,10 @@
             this.top_control.Controls.Add(this.btn_minimize);
             this.top_control.Controls.Add(this.btn_close);
             this.top_control.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.top_control.Location = new System.Drawing.Point(-7, 2);
+            this.top_control.Location = new System.Drawing.Point(-8, 2);
+            this.top_control.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.top_control.Name = "top_control";
-            this.top_control.Size = new System.Drawing.Size(410, 18);
+            this.top_control.Size = new System.Drawing.Size(457, 22);
             this.top_control.TabIndex = 4;
             this.top_control.MouseDown += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_down);
             this.top_control.MouseMove += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_move);
@@ -66,9 +67,10 @@
             // 
             this.btn_minimize.BackColor = System.Drawing.SystemColors.Info;
             this.btn_minimize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_minimize.Location = new System.Drawing.Point(356, 0);
+            this.btn_minimize.Location = new System.Drawing.Point(407, 0);
+            this.btn_minimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_minimize.Name = "btn_minimize";
-            this.btn_minimize.Size = new System.Drawing.Size(20, 20);
+            this.btn_minimize.Size = new System.Drawing.Size(23, 25);
             this.btn_minimize.TabIndex = 0;
             this.btn_minimize.Text = "ㅡ";
             this.btn_minimize.UseVisualStyleBackColor = false;
@@ -77,9 +79,10 @@
             // btn_close
             // 
             this.btn_close.BackColor = System.Drawing.SystemColors.Info;
-            this.btn_close.Location = new System.Drawing.Point(382, 0);
+            this.btn_close.Location = new System.Drawing.Point(437, 0);
+            this.btn_close.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(20, 20);
+            this.btn_close.Size = new System.Drawing.Size(23, 25);
             this.btn_close.TabIndex = 4;
             this.btn_close.Text = "X";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -94,9 +97,10 @@
             this.btn_jeju.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_jeju.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_jeju.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_jeju.Location = new System.Drawing.Point(0, 930);
+            this.btn_jeju.Location = new System.Drawing.Point(0, 1168);
+            this.btn_jeju.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_jeju.Name = "btn_jeju";
-            this.btn_jeju.Size = new System.Drawing.Size(403, 70);
+            this.btn_jeju.Size = new System.Drawing.Size(449, 88);
             this.btn_jeju.TabIndex = 5;
             this.btn_jeju.Text = "제주";
             this.btn_jeju.UseVisualStyleBackColor = true;
@@ -110,9 +114,10 @@
             this.btn_gwangju.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_gwangju.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gwangju.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_gwangju.Location = new System.Drawing.Point(0, 860);
+            this.btn_gwangju.Location = new System.Drawing.Point(0, 1080);
+            this.btn_gwangju.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_gwangju.Name = "btn_gwangju";
-            this.btn_gwangju.Size = new System.Drawing.Size(403, 70);
+            this.btn_gwangju.Size = new System.Drawing.Size(449, 88);
             this.btn_gwangju.TabIndex = 6;
             this.btn_gwangju.Text = "광주";
             this.btn_gwangju.UseVisualStyleBackColor = true;
@@ -126,9 +131,10 @@
             this.btn_ulsan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ulsan.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ulsan.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_ulsan.Location = new System.Drawing.Point(0, 790);
+            this.btn_ulsan.Location = new System.Drawing.Point(0, 992);
+            this.btn_ulsan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_ulsan.Name = "btn_ulsan";
-            this.btn_ulsan.Size = new System.Drawing.Size(403, 70);
+            this.btn_ulsan.Size = new System.Drawing.Size(449, 88);
             this.btn_ulsan.TabIndex = 7;
             this.btn_ulsan.Text = "울산";
             this.btn_ulsan.UseVisualStyleBackColor = true;
@@ -142,9 +148,10 @@
             this.btn_busan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_busan.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_busan.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_busan.Location = new System.Drawing.Point(0, 720);
+            this.btn_busan.Location = new System.Drawing.Point(0, 904);
+            this.btn_busan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_busan.Name = "btn_busan";
-            this.btn_busan.Size = new System.Drawing.Size(403, 70);
+            this.btn_busan.Size = new System.Drawing.Size(449, 88);
             this.btn_busan.TabIndex = 8;
             this.btn_busan.Text = "부산";
             this.btn_busan.UseVisualStyleBackColor = true;
@@ -158,9 +165,10 @@
             this.btn_daegu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_daegu.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_daegu.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_daegu.Location = new System.Drawing.Point(0, 650);
+            this.btn_daegu.Location = new System.Drawing.Point(0, 816);
+            this.btn_daegu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_daegu.Name = "btn_daegu";
-            this.btn_daegu.Size = new System.Drawing.Size(403, 70);
+            this.btn_daegu.Size = new System.Drawing.Size(449, 88);
             this.btn_daegu.TabIndex = 9;
             this.btn_daegu.Text = "대구";
             this.btn_daegu.UseVisualStyleBackColor = true;
@@ -174,9 +182,10 @@
             this.btn_sejong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sejong.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sejong.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_sejong.Location = new System.Drawing.Point(0, 580);
+            this.btn_sejong.Location = new System.Drawing.Point(0, 728);
+            this.btn_sejong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_sejong.Name = "btn_sejong";
-            this.btn_sejong.Size = new System.Drawing.Size(403, 70);
+            this.btn_sejong.Size = new System.Drawing.Size(449, 88);
             this.btn_sejong.TabIndex = 10;
             this.btn_sejong.Text = "세종";
             this.btn_sejong.UseVisualStyleBackColor = true;
@@ -190,9 +199,10 @@
             this.btn_daejeon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_daejeon.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_daejeon.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_daejeon.Location = new System.Drawing.Point(0, 510);
+            this.btn_daejeon.Location = new System.Drawing.Point(0, 640);
+            this.btn_daejeon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_daejeon.Name = "btn_daejeon";
-            this.btn_daejeon.Size = new System.Drawing.Size(403, 70);
+            this.btn_daejeon.Size = new System.Drawing.Size(449, 88);
             this.btn_daejeon.TabIndex = 11;
             this.btn_daejeon.Text = "대전";
             this.btn_daejeon.UseVisualStyleBackColor = true;
@@ -206,9 +216,10 @@
             this.btn_jeonra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_jeonra.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_jeonra.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_jeonra.Location = new System.Drawing.Point(0, 440);
+            this.btn_jeonra.Location = new System.Drawing.Point(0, 552);
+            this.btn_jeonra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_jeonra.Name = "btn_jeonra";
-            this.btn_jeonra.Size = new System.Drawing.Size(403, 70);
+            this.btn_jeonra.Size = new System.Drawing.Size(449, 88);
             this.btn_jeonra.TabIndex = 12;
             this.btn_jeonra.Text = "전라";
             this.btn_jeonra.UseVisualStyleBackColor = true;
@@ -222,9 +233,10 @@
             this.btn_gyeongsang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_gyeongsang.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gyeongsang.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_gyeongsang.Location = new System.Drawing.Point(0, 370);
+            this.btn_gyeongsang.Location = new System.Drawing.Point(0, 464);
+            this.btn_gyeongsang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_gyeongsang.Name = "btn_gyeongsang";
-            this.btn_gyeongsang.Size = new System.Drawing.Size(403, 70);
+            this.btn_gyeongsang.Size = new System.Drawing.Size(449, 88);
             this.btn_gyeongsang.TabIndex = 13;
             this.btn_gyeongsang.Text = "경상";
             this.btn_gyeongsang.UseVisualStyleBackColor = true;
@@ -238,9 +250,10 @@
             this.btn_choongchung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_choongchung.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_choongchung.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_choongchung.Location = new System.Drawing.Point(0, 300);
+            this.btn_choongchung.Location = new System.Drawing.Point(0, 376);
+            this.btn_choongchung.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_choongchung.Name = "btn_choongchung";
-            this.btn_choongchung.Size = new System.Drawing.Size(403, 70);
+            this.btn_choongchung.Size = new System.Drawing.Size(449, 88);
             this.btn_choongchung.TabIndex = 14;
             this.btn_choongchung.Text = "충청";
             this.btn_choongchung.UseVisualStyleBackColor = true;
@@ -254,9 +267,10 @@
             this.btn_gangwon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_gangwon.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gangwon.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_gangwon.Location = new System.Drawing.Point(0, 230);
+            this.btn_gangwon.Location = new System.Drawing.Point(0, 288);
+            this.btn_gangwon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_gangwon.Name = "btn_gangwon";
-            this.btn_gangwon.Size = new System.Drawing.Size(403, 70);
+            this.btn_gangwon.Size = new System.Drawing.Size(449, 88);
             this.btn_gangwon.TabIndex = 15;
             this.btn_gangwon.Text = "강원";
             this.btn_gangwon.UseVisualStyleBackColor = true;
@@ -270,9 +284,10 @@
             this.btn_incheon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_incheon.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_incheon.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_incheon.Location = new System.Drawing.Point(0, 160);
+            this.btn_incheon.Location = new System.Drawing.Point(0, 200);
+            this.btn_incheon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_incheon.Name = "btn_incheon";
-            this.btn_incheon.Size = new System.Drawing.Size(403, 70);
+            this.btn_incheon.Size = new System.Drawing.Size(449, 88);
             this.btn_incheon.TabIndex = 16;
             this.btn_incheon.Text = "인천";
             this.btn_incheon.UseVisualStyleBackColor = true;
@@ -286,9 +301,10 @@
             this.btn_gyeonggi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_gyeonggi.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gyeonggi.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_gyeonggi.Location = new System.Drawing.Point(0, 90);
+            this.btn_gyeonggi.Location = new System.Drawing.Point(0, 112);
+            this.btn_gyeonggi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_gyeonggi.Name = "btn_gyeonggi";
-            this.btn_gyeonggi.Size = new System.Drawing.Size(403, 70);
+            this.btn_gyeonggi.Size = new System.Drawing.Size(449, 88);
             this.btn_gyeonggi.TabIndex = 17;
             this.btn_gyeonggi.Text = "경기";
             this.btn_gyeonggi.UseVisualStyleBackColor = true;
@@ -302,19 +318,20 @@
             this.btn_seoul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_seoul.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_seoul.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_seoul.Location = new System.Drawing.Point(0, 20);
+            this.btn_seoul.Location = new System.Drawing.Point(0, 24);
+            this.btn_seoul.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_seoul.Name = "btn_seoul";
-            this.btn_seoul.Size = new System.Drawing.Size(403, 70);
+            this.btn_seoul.Size = new System.Drawing.Size(449, 88);
             this.btn_seoul.TabIndex = 18;
             this.btn_seoul.Text = "서울";
             this.btn_seoul.UseVisualStyleBackColor = true;
             // 
             // main_page
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(400, 600);
+            this.ClientSize = new System.Drawing.Size(457, 750);
             this.Controls.Add(this.btn_seoul);
             this.Controls.Add(this.btn_gyeonggi);
             this.Controls.Add(this.btn_incheon);
@@ -331,6 +348,7 @@
             this.Controls.Add(this.btn_jeju);
             this.Controls.Add(this.top_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "main_page";
             this.Text = "Form2";
             this.top_control.ResumeLayout(false);
