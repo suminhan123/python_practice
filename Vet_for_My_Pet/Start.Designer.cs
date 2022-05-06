@@ -33,6 +33,7 @@
             this.title = new System.Windows.Forms.Label();
             this.btn_start = new System.Windows.Forms.Button();
             this.top_control = new System.Windows.Forms.Panel();
+            this.btn_minimize = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
             this.top_control.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +63,7 @@
             // btn_start
             // 
             this.btn_start.BackColor = System.Drawing.SystemColors.Info;
-            this.btn_start.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btn_start.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btn_start.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btn_start.FlatAppearance.BorderSize = 0;
             this.btn_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -73,29 +74,41 @@
             this.btn_start.Size = new System.Drawing.Size(400, 70);
             this.btn_start.TabIndex = 2;
             this.btn_start.Text = "시작하기";
-            this.btn_start.UseVisualStyleBackColor = false;
-            this.btn_start.UseWaitCursor = true;
+            this.btn_start.UseVisualStyleBackColor = true;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // top_control
             // 
             this.top_control.BackColor = System.Drawing.SystemColors.Info;
+            this.top_control.Controls.Add(this.btn_minimize);
             this.top_control.Controls.Add(this.btn_close);
             this.top_control.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top_control.Location = new System.Drawing.Point(-7, 2);
             this.top_control.Name = "top_control";
-            this.top_control.Size = new System.Drawing.Size(411, 18);
+            this.top_control.Size = new System.Drawing.Size(410, 18);
             this.top_control.TabIndex = 3;
             this.top_control.MouseDown += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_down);
             this.top_control.MouseMove += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_move);
             this.top_control.MouseUp += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_up);
+            // 
+            // btn_minimize
+            // 
+            this.btn_minimize.BackColor = System.Drawing.SystemColors.Info;
+            this.btn_minimize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_minimize.Location = new System.Drawing.Point(356, 0);
+            this.btn_minimize.Name = "btn_minimize";
+            this.btn_minimize.Size = new System.Drawing.Size(20, 20);
+            this.btn_minimize.TabIndex = 0;
+            this.btn_minimize.Text = "ㅡ";
+            this.btn_minimize.UseVisualStyleBackColor = false;
+            this.btn_minimize.Click += new System.EventHandler(this.btn_minimize_Click);
             // 
             // btn_close
             // 
             this.btn_close.BackColor = System.Drawing.SystemColors.Info;
             this.btn_close.Location = new System.Drawing.Point(382, 0);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(25, 23);
+            this.btn_close.Size = new System.Drawing.Size(20, 20);
             this.btn_close.TabIndex = 4;
             this.btn_close.Text = "X";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -128,6 +141,7 @@
         private System.Windows.Forms.Button btn_start;
         private System.Windows.Forms.Panel top_control;
         private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Button btn_minimize;
     }
 }
 

@@ -49,9 +49,15 @@ namespace Vet_for_My_Pet
             frm.Show(); 
         }
 
+        private void btn_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+        }
+
         private void btn_close_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
     }
 }

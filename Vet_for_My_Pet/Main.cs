@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace Vet_for_My_Pet
 {
-    public partial class start_page : Form
+    public partial class main_page : Form
     {
 
         bool is_move;
         int val_x, val_y;
 
-        public start_page()
+        public main_page()
         {
             InitializeComponent();
         }
 
         private void top_control_mouse_up(object sender, MouseEventArgs e)
         {
-           is_move = false;
+            is_move = false;
         }
 
         private void top_control_mouse_move(object sender, MouseEventArgs e)
         {
-            if(is_move == true)
+            if (is_move == true)
             {
                 this.SetDesktopLocation(MousePosition.X - val_x, MousePosition.Y - val_y);
             }
@@ -41,17 +41,15 @@ namespace Vet_for_My_Pet
             val_y = e.Y;
         }
 
-        private void btn_start_Click(object sender, EventArgs e)
+        private void btn_minimize_Click(object sender, EventArgs e)
         {
-            this.Visible = false; 
-            main_page frm = new main_page(); 
-            frm.Owner = this; 
-            frm.Show(); 
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
         }
 
         private void btn_close_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
     }
 }
