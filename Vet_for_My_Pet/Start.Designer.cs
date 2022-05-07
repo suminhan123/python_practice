@@ -144,3 +144,4 @@
         private System.Windows.Forms.Button btn_minimize;
     }
 }
+
