@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.top_control = new System.Windows.Forms.Panel();
-            this.btn_minimize = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
             this.btn_jeju = new System.Windows.Forms.Button();
             this.btn_gwangju = new System.Windows.Forms.Button();
@@ -45,6 +44,7 @@
             this.btn_incheon = new System.Windows.Forms.Button();
             this.btn_gyeonggi = new System.Windows.Forms.Button();
             this.btn_seoul = new System.Windows.Forms.Button();
+            this.btn_minimize = new System.Windows.Forms.Button();
             this.top_control.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,18 +61,6 @@
             this.top_control.MouseDown += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_down);
             this.top_control.MouseMove += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_move);
             this.top_control.MouseUp += new System.Windows.Forms.MouseEventHandler(this.top_control_mouse_up);
-            // 
-            // btn_minimize
-            // 
-            this.btn_minimize.BackColor = System.Drawing.SystemColors.Info;
-            this.btn_minimize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_minimize.Location = new System.Drawing.Point(356, 0);
-            this.btn_minimize.Name = "btn_minimize";
-            this.btn_minimize.Size = new System.Drawing.Size(20, 20);
-            this.btn_minimize.TabIndex = 0;
-            this.btn_minimize.Text = "ㅡ";
-            this.btn_minimize.UseVisualStyleBackColor = false;
-            this.btn_minimize.Click += new System.EventHandler(this.btn_minimize_Click);
             // 
             // btn_close
             // 
@@ -100,6 +88,7 @@
             this.btn_jeju.TabIndex = 5;
             this.btn_jeju.Text = "제주";
             this.btn_jeju.UseVisualStyleBackColor = true;
+            this.btn_jeju.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_gwangju
             // 
@@ -116,6 +105,7 @@
             this.btn_gwangju.TabIndex = 6;
             this.btn_gwangju.Text = "광주";
             this.btn_gwangju.UseVisualStyleBackColor = true;
+            this.btn_gwangju.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_ulsan
             // 
@@ -132,6 +122,7 @@
             this.btn_ulsan.TabIndex = 7;
             this.btn_ulsan.Text = "울산";
             this.btn_ulsan.UseVisualStyleBackColor = true;
+            this.btn_ulsan.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_busan
             // 
@@ -148,6 +139,7 @@
             this.btn_busan.TabIndex = 8;
             this.btn_busan.Text = "부산";
             this.btn_busan.UseVisualStyleBackColor = true;
+            this.btn_busan.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_daegu
             // 
@@ -164,6 +156,7 @@
             this.btn_daegu.TabIndex = 9;
             this.btn_daegu.Text = "대구";
             this.btn_daegu.UseVisualStyleBackColor = true;
+            this.btn_daegu.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_sejong
             // 
@@ -180,6 +173,7 @@
             this.btn_sejong.TabIndex = 10;
             this.btn_sejong.Text = "세종";
             this.btn_sejong.UseVisualStyleBackColor = true;
+            this.btn_sejong.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_daejeon
             // 
@@ -196,6 +190,7 @@
             this.btn_daejeon.TabIndex = 11;
             this.btn_daejeon.Text = "대전";
             this.btn_daejeon.UseVisualStyleBackColor = true;
+            this.btn_daejeon.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_jeonra
             // 
@@ -212,6 +207,7 @@
             this.btn_jeonra.TabIndex = 12;
             this.btn_jeonra.Text = "전라";
             this.btn_jeonra.UseVisualStyleBackColor = true;
+            this.btn_jeonra.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_gyeongsang
             // 
@@ -228,6 +224,7 @@
             this.btn_gyeongsang.TabIndex = 13;
             this.btn_gyeongsang.Text = "경상";
             this.btn_gyeongsang.UseVisualStyleBackColor = true;
+            this.btn_gyeongsang.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_choongchung
             // 
@@ -244,6 +241,7 @@
             this.btn_choongchung.TabIndex = 14;
             this.btn_choongchung.Text = "충청";
             this.btn_choongchung.UseVisualStyleBackColor = true;
+            this.btn_choongchung.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_gangwon
             // 
@@ -260,6 +258,7 @@
             this.btn_gangwon.TabIndex = 15;
             this.btn_gangwon.Text = "강원";
             this.btn_gangwon.UseVisualStyleBackColor = true;
+            this.btn_gangwon.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_incheon
             // 
@@ -276,6 +275,7 @@
             this.btn_incheon.TabIndex = 16;
             this.btn_incheon.Text = "인천";
             this.btn_incheon.UseVisualStyleBackColor = true;
+            this.btn_incheon.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_gyeonggi
             // 
@@ -292,6 +292,7 @@
             this.btn_gyeonggi.TabIndex = 17;
             this.btn_gyeonggi.Text = "경기";
             this.btn_gyeonggi.UseVisualStyleBackColor = true;
+            this.btn_gyeonggi.Click += new System.EventHandler(this.btn_region_Click);
             // 
             // btn_seoul
             // 
@@ -308,6 +309,19 @@
             this.btn_seoul.TabIndex = 18;
             this.btn_seoul.Text = "서울";
             this.btn_seoul.UseVisualStyleBackColor = true;
+            this.btn_seoul.Click += new System.EventHandler(this.btn_region_Click);
+            // 
+            // btn_minimize
+            // 
+            this.btn_minimize.BackColor = System.Drawing.SystemColors.Info;
+            this.btn_minimize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_minimize.Location = new System.Drawing.Point(356, 0);
+            this.btn_minimize.Name = "btn_minimize";
+            this.btn_minimize.Size = new System.Drawing.Size(20, 20);
+            this.btn_minimize.TabIndex = 0;
+            this.btn_minimize.Text = "ㅡ";
+            this.btn_minimize.UseVisualStyleBackColor = false;
+            this.btn_minimize.Click += new System.EventHandler(this.btn_minimize_Click);
             // 
             // main_page
             // 
@@ -332,7 +346,7 @@
             this.Controls.Add(this.top_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "main_page";
-            this.Text = "Form2";
+            this.Text = "Main";
             this.top_control.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -341,7 +355,6 @@
         #endregion
 
         private System.Windows.Forms.Panel top_control;
-        private System.Windows.Forms.Button btn_minimize;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Button btn_jeju;
         private System.Windows.Forms.Button btn_gwangju;
@@ -357,5 +370,6 @@
         private System.Windows.Forms.Button btn_incheon;
         private System.Windows.Forms.Button btn_gyeonggi;
         private System.Windows.Forms.Button btn_seoul;
+        private System.Windows.Forms.Button btn_minimize;
     }
 }

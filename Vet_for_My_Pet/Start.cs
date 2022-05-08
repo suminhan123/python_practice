@@ -12,14 +12,13 @@ namespace Vet_for_My_Pet
 {
     public partial class start_page : Form
     {
-
-        bool is_move;
-        int val_x, val_y;
-
         public start_page()
         {
             InitializeComponent();
         }
+
+        bool is_move;
+        int val_x, val_y;
 
         private void top_control_mouse_up(object sender, MouseEventArgs e)
         {

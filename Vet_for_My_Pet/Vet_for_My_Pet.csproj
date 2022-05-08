@@ -144,6 +144,45 @@
     <Compile Include="Ulsan.Designer.cs">
       <DependentUpon>Ulsan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Busan.resx">
+      <DependentUpon>Busan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choongchung.resx">
+      <DependentUpon>Choongchung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daegu.resx">
+      <DependentUpon>Daegu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daejeon.resx">
+      <DependentUpon>Daejeon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gangwon.resx">
+      <DependentUpon>Gangwon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gwangju.resx">
+      <DependentUpon>Gwangju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyeonggi.resx">
+      <DependentUpon>Gyeonggi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyeongsang.resx">
+      <DependentUpon>Gyeongsang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Incheon.resx">
+      <DependentUpon>Incheon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jeju.resx">
+      <DependentUpon>Jeju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jeonra.resx">
+      <DependentUpon>Jeonra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sejong.resx">
+      <DependentUpon>Sejong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seoul.resx">
+      <DependentUpon>Seoul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +198,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ulsan.resx">
+      <DependentUpon>Ulsan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
