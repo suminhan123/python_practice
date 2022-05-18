@@ -144,6 +144,72 @@
     <Compile Include="Ulsan.Designer.cs">
       <DependentUpon>Ulsan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vet_AK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_AK.Designer.cs">
+      <DependentUpon>Vet_AK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_choongbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_choongbook.Designer.cs">
+      <DependentUpon>Vet_choongbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_ain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_ain.Designer.cs">
+      <DependentUpon>Vet_ain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_anypet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_anypet.Designer.cs">
+      <DependentUpon>Vet_anypet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_dasom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_dasom.Designer.cs">
+      <DependentUpon>Vet_dasom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_goryeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_goryeo.Designer.cs">
+      <DependentUpon>Vet_goryeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_goryeo_seosan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_goryeo_seosan.Designer.cs">
+      <DependentUpon>Vet_goryeo_seosan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_royal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_royal.Designer.cs">
+      <DependentUpon>Vet_royal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_shinhwa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_shinhwa.Designer.cs">
+      <DependentUpon>Vet_shinhwa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_somang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_somang.Designer.cs">
+      <DependentUpon>Vet_somang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_soo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_soo.Designer.cs">
+      <DependentUpon>Vet_soo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Busan.resx">
       <DependentUpon>Busan.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +266,39 @@
     </Compile>
     <EmbeddedResource Include="Ulsan.resx">
       <DependentUpon>Ulsan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_AK.resx">
+      <DependentUpon>Vet_AK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_choongbook.resx">
+      <DependentUpon>Vet_choongbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_ain.resx">
+      <DependentUpon>Vet_ain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_anypet.resx">
+      <DependentUpon>Vet_anypet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_dasom.resx">
+      <DependentUpon>Vet_dasom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_goryeo.resx">
+      <DependentUpon>Vet_goryeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_goryeo_seosan.resx">
+      <DependentUpon>Vet_goryeo_seosan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_royal.resx">
+      <DependentUpon>Vet_royal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_shinhwa.resx">
+      <DependentUpon>Vet_shinhwa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_somang.resx">
+      <DependentUpon>Vet_somang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vet_soo.resx">
+      <DependentUpon>Vet_soo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
