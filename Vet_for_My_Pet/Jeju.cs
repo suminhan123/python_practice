@@ -45,6 +45,13 @@ namespace Vet_for_My_Pet
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
         }
 
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            main_page frm = new main_page();
+            frm.Owner = this;
+            frm.Show();
+        }
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -54,6 +61,35 @@ namespace Vet_for_My_Pet
         {
             this.Close();
             Application.Exit();
+        }
+
+        private void btn_vet_Click(object sender, EventArgs e)
+        {
+            var clickOption = sender as Button;
+            if(clickOption != null)
+            {
+                if(clickOption == btn_kium)
+                {
+                    this.Visible = false;
+                    Vet_kium frm = new Vet_kium();
+                    frm.Owner = this;
+                    frm.Show();
+                }
+                else if (clickOption == btn_tt)
+                {
+                    this.Visible = false;
+                    Vet_tt frm = new Vet_tt(); 
+                    frm.Owner = this;
+                    frm.Show();
+                }
+                else if (clickOption == btn_kium)
+                {
+                    this.Visible = false;
+                    Vet_hanra frm = new Vet_hanra();
+                    frm.Owner = this;
+                    frm.Show();
+                }
+            }
         }
     }
 }

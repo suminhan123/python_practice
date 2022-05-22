@@ -186,6 +186,18 @@
     <Compile Include="Vet_goryeo_seosan.Designer.cs">
       <DependentUpon>Vet_goryeo_seosan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vet_hanra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_hanra.Designer.cs">
+      <DependentUpon>Vet_hanra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_kium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_kium.Designer.cs">
+      <DependentUpon>Vet_kium.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vet_royal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +221,12 @@
     </Compile>
     <Compile Include="Vet_soo.Designer.cs">
       <DependentUpon>Vet_soo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vet_tt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vet_tt.Designer.cs">
+      <DependentUpon>Vet_tt.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Busan.resx">
       <DependentUpon>Busan.cs</DependentUpon>
